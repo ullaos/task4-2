@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var array = [10, 30, 35, 44, 55, 40, 57, 80, 90, 100];
+        var even = 0;
+        var n = even;
+        var b =0;   
+        for(var index =0; index < array.length; index++){
+            if (array[index] % 2 == 0){
+                n = even += array[index];
+            }
+        }
+        console.log(n);
+        document.writeln(n);
+        for(var index =0; index < array.length; index++){
+            if (index < 5 ){
+                b += array[index];
+            }
+        }
+        console.log(b);
+        document.writeln(b);
+
+
+
+
+
+
+
+
+        var object = {
+            name: "ola hisham othmany",
+            call: 991415763,
+            age: 29,
+            email: "olaotmany@gmail.com"
+        }
+        console.log(object);
+        console.log(object.name, object.call, object.age, object.email);
+        console.log(object['name']);
+        console.log(object['call']);
+        console.log(object['age']);
+        console.log(object['email']);
+
+        document.writeln(object.name);
+        document.writeln(object.call);
+        document.writeln(object.age);
+        document.writeln(object.email);
+    </script>
+</body>
+</html>
